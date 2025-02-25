@@ -6,7 +6,7 @@ const PhotoGrid = ({ photos, onPhotoClick }) => {
       {photos.map((photo, index) => (
         <img
           key={index}
-          src={` https://artepaint-server-876d8e16c9a8.herokuapp.com${photo}`}
+          src={`https://artepaint-server-876d8e16c9a8.herokuapp.com${photo}`}
           alt={`Photo ${index + 1}`}
           className="w-full md:h-64 h-40 object-cover cursor-pointer"
           onClick={() => onPhotoClick(photo)}
