@@ -8,6 +8,7 @@ import Contact from './pages/Contact';
 import OurDesign from './pages/OurDesign'
 import Footer from './components/Footer';
 import './index.css';
+import PageNotFound from './pages/PageNotFound';
 
 const App = () => {
   return (
@@ -15,11 +16,13 @@ const App = () => {
       <Navbar />
       <main className="relative  pt-32">
         <Routes>
+        <Route path="/" element={<Home />} />
           <Route path="/home" element={<Home />} />
           <Route path="/aboutUs" element={<AboutUs />} />
           <Route path="/ourServices" element={<OurServices />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/ourDesign" element={<OurDesign />} />
+          <Route path="*" element={<PageNotFound />} />
         </Routes>
       </main>
       <Footer/>
