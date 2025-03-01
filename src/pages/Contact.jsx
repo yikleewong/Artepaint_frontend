@@ -40,7 +40,7 @@ const Contact = () => {
                     <button className='rounded-xl bg-blue-200 p-2.5'><EnvelopeIcon className='h-8 w-8'/></button>
                     <h2 className="text-gray-800 text-base font-bold">Email:</h2>
                     <a href="mailto:artepaintstudio@gmail.com" alt="email" className="black text-sm ml-4">
-                        <strong>artepaintstudio@gmail.com</strong>
+                        <strong>info@artepaint.hk</strong>
                     </a>
                   </li>
                   <li className="mt-12 flex-col flex justify-center items-center">
