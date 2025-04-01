@@ -18,7 +18,7 @@ const Footer = () => {
             </header>
             <div className="flex justify-center space-x-8 mt-2 mb-6">
                 <SocialIcon target="_blank" url="https://www.facebook.com/profile.php?id=61571555213657" label="Our Facebook"/>
-                <SocialIcon target="_blank" url="https://www.instagram.com/artepaintdecoration/?fbclid=IwY2xjawIho8hleHRuA2FlbQIxMAABHYD8kBcugf3KYD6DUjL-ywv77K3MerOcqGeMxcAnsY1XtF4wvHoPOWnOfw_aem_B9BCCDPB7tgJzQ7PH4z_6g#" label="Our Instagram"/>
+                <SocialIcon target="_blank" url="https://www.instagram.com/artepaint.hk/?hl=en" label="Our Instagram"/>
             </div>
         </section>
         <div className="text-center py-4 mt-auto bg-gray-100 text-xs">
