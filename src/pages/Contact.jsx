@@ -47,12 +47,12 @@ const Contact = () => {
                     <div className='flex justify-center items-center space-x-2'>
                     <button className='rounded-xl bg-blue-200 p-2.5'><PhoneIcon className='h-8 w-8'/></button>
                       <p>/</p>
-                      <SocialIcon className="" target="_blank" url="https://wa.me/85284001733" label="Whatsapp link" network='whatsapp'/>
+                      <SocialIcon className="" target="_blank" url="https://wa.me/85254072672" label="Whatsapp link" network='whatsapp'/>
                     </div>
 
                     <h3 className="text-gray-800 text-base font-bold">Phone/Whatsapp:</h3>
-                    <a href="tel:+85284001733" data-rel="external" alt="phone number" className="black text-sm ml-4 mx-4">
-                        <strong>+852 8400 1733</strong>
+                    <a href="tel:+85254072672" data-rel="external" alt="phone number" className="black text-sm ml-4 mx-4">
+                        <strong>+852 5407 2672</strong>
                     </a>
                 </li>
                 {/*<li class="mt-12 flex-col flex justify-center items-center">
